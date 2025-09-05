@@ -1,7 +1,7 @@
 from fastapi import HTTPException
 from pydantic import BaseModel
 import pandas as pd
-from DataFetchFiles.get_max_price_loads import get_optimal_loads, LoadSelectionResponse
+from .get_max_price_loads import get_optimal_loads, LoadSelectionResponse
 
 
 class LoadFilterValues(BaseModel):
