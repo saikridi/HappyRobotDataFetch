@@ -1,7 +1,7 @@
 from fastapi import HTTPException
 from pydantic import BaseModel
 import pandas as pd
-from get_max_price_loads import get_optimal_loads, LoadSelectionResponse
+from DataFetchFiles.get_max_price_loads import get_optimal_loads, LoadSelectionResponse
 
 
 class LoadFilterValues(BaseModel):
@@ -85,16 +85,11 @@ def get_carrier(request: LoadRequest, df: pd.DataFrame):
     """Get the loads"""
     filter_values = request.filter_values
     try:        
-        # loads = df[(df["origin_city"].str.lower() == filter_values.origin_city.lower()) & 
-        #             (df["destination_city"].str.lower() == filter_values.destination_city.lower()) & 
-        #             (df["origin_state"].str.lower() == filter_values.origin_state.lower()) & 
-        #             (df["destination_state"].str.lower() == filter_values.destination_state.lower()) &
-        #             (df["weights"] < filter_values.max_load_weight)]
-        
         loads = df[(df["origin_city"].str.lower() == filter_values.origin_city.lower()) & 
                     (df["destination_city"].str.lower() == filter_values.destination_city.lower()) & 
                     (df["origin_state"].str.lower() == filter_values.origin_state.lower()) & 
-                    (df["destination_state"].str.lower() == filter_values.destination_state.lower())]
+                    (df["destination_state"].str.lower() == filter_values.destination_state.lower()) &
+                    (df["weights"] < filter_values.max_load_weight)]
 
         # Sorting the loads in a descending order by rate
         loads = loads.sort_values(by="loadboard_rate", ascending=False)

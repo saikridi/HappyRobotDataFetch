@@ -4,6 +4,10 @@ from typing import List, Dict, Any
 import pandas as pd
 
 
+class LoadSelectionRequest(BaseModel):
+    """Request for optimal load selection"""
+    max_load_weight: int
+
 class LoadSelectionResponse(BaseModel):
     selected_loads: List[Dict[str, Any]]
     total_amount: float
