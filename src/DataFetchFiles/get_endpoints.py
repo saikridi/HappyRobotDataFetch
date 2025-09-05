@@ -114,16 +114,4 @@ def get_carrier(request: LoadRequest, df: pd.DataFrame):
     except HTTPException:
         raise
     except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Error retrieving carrier: {str(e)}")
-
-#TODO: Write the test cases for the get_carrier function
-def test_get_carrier():
-    """Test the get_carrier function"""
-    request = LoadRequest(filter_values=LoadFilterValues(origin_city="dallas", destination_city="dallas", origin_state="texas", destination_state="texas", max_load_weight=100000))
-    loads = pd.read_csv("/Users/saikrishnadirisala/HappyRobotDataFetch/src/Resources/inbound_carrier_data.csv")
-    result = get_carrier(request, loads)
-    #TODO: print the result in a json format
-    print(result.model_dump_json())
-if __name__ == "__main__":
-    test_get_carrier()
-    
+        raise HTTPException(status_code=500, detail=f"Error retrieving carrier: {str(e)}")    

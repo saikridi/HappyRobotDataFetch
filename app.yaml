@@ -1,6 +1,8 @@
 runtime: python39
 service: default
 
+entrypoint: uvicorn src.main:app --host 0.0.0.0 --port $PORT
+
 handlers:
 - url: /.*
   script: auto
