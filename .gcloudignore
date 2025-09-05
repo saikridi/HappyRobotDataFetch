@@ -1,9 +1,0 @@
-# Environments
-.env
-
-# Git
-.git/
-.gitignore
-
-# Documentation
-README.md

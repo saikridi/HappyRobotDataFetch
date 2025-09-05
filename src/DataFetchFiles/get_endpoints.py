@@ -81,7 +81,7 @@ def return_multiple_load_response(request: LoadRequest, loads1: LoadSelectionRes
 """
 GET Carrier Functions.
 """
-def get_carrier(request: LoadRequest, df: pd.DataFrame):
+async def get_carrier(request: LoadRequest, df: pd.DataFrame):
     """Get the loads"""
     filter_values = request.filter_values
     try:        
