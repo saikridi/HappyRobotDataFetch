@@ -13,7 +13,7 @@ async def root():
     return {"message": "Carrier Data API", "version": "1.0.0"}
 
 
-@app.post("/getLoads")
+@app.get("/getLoads")
 async def get_carrier_endpoint(request: LoadIdRequest):
     """Get specific carrier by load_id from JSON request"""
     return get_carrier(request, df)
