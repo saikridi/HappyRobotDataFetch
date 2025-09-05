@@ -1,0 +1,521 @@
+load_id,origin_city,origin_state,destination_city,destination_state,pickup_datetime,delivery_datetime,equipment_type,loadboard_rate,notes,weights,commodity_type
+1,san francisco,california,las vegas,nevada,2025-09-15 07:29,2025-09-19 07:29,cranes,5505.05,"heavy load, confirm bridge clearance",15760,steel
+2,denver,colorado,chicago,illinois,2025-09-09 07:29,2025-09-11 07:29,mining equipment,4366.91,delivery to mining site,14265,steel
+3,memphis,tennessee,houston,texas,2025-09-12 07:29,2025-09-13 07:29,medical equipment,6064.33,"fragile, no stacking",11406,pharmaceuticals
+4,atlanta,georgia,san francisco,california,2025-09-11 07:29,2025-09-12 07:29,construction machinery,7454.0,must deliver to construction site,15646,machinery
+5,salt lake city,utah,boston,massachusetts,2025-09-11 07:29,2025-09-16 07:29,robotics/automation units,1874.23,"fragile, shock protection required",34236,paper goods
+6,dallas,texas,st. louis,missouri,2025-09-15 07:29,2025-09-21 07:29,robotics/automation units,6856.57,"fragile, shock protection required",21107,paper goods
+7,memphis,tennessee,seattle,washington,2025-09-15 07:29,2025-09-16 07:29,mining equipment,4022.75,"extra heavy, special trailer required",30755,steel
+8,portland,oregon,phoenix,arizona,2025-09-08 07:29,2025-09-11 07:29,construction machinery,4875.92,must deliver to construction site,37105,steel
+9,san francisco,california,chicago,illinois,2025-09-13 07:29,2025-09-15 07:29,farm equipment,7501.99,delivery to rural farm,42189,beverages
+10,atlanta,georgia,boston,massachusetts,2025-09-13 07:29,2025-09-14 07:29,transformers,5918.63,special permits required,27649,steel
+11,detroit,michigan,san francisco,california,2025-09-11 07:29,2025-09-18 07:29,medical equipment,6274.18,delivery to hospital dock only,40843,pharmaceuticals
+12,denver,colorado,chicago,illinois,2025-09-11 07:29,2025-09-15 07:29,transformers,6981.97,special permits required,47702,steel
+13,chicago,illinois,cleveland,ohio,2025-09-15 07:29,2025-09-21 07:29,generators,4475.5,requires crane at delivery,13905,machinery
+14,san francisco,california,boston,massachusetts,2025-09-09 07:29,2025-09-10 07:29,mining equipment,1933.82,delivery to mining site,18568,steel
+15,detroit,michigan,new york,new york,2025-09-13 07:29,2025-09-19 07:29,cranes,7100.69,escort vehicle mandatory,24736,steel
+16,st. louis,missouri,minneapolis,minnesota,2025-09-07 07:29,2025-09-14 07:29,transformers,1299.76,needs escort vehicle,32453,steel
+17,denver,colorado,cleveland,ohio,2025-09-15 07:29,2025-09-17 07:29,transformers,4603.66,needs escort vehicle,38869,steel
+18,salt lake city,utah,st. louis,missouri,2025-09-07 07:29,2025-09-09 07:29,generators,3164.35,"fragile, handle with care",42752,machinery
+19,detroit,michigan,miami,florida,2025-09-08 07:29,2025-09-10 07:29,transformers,7804.5,"high-value, insurance required",26569,steel
+20,atlanta,georgia,portland,oregon,2025-09-13 07:29,2025-09-14 07:29,construction machinery,1464.64,must deliver to construction site,47866,machinery
+21,houston,texas,denver,colorado,2025-09-08 07:29,2025-09-09 07:29,medical equipment,4646.61,delivery to hospital dock only,12122,electronics
+22,miami,florida,st. louis,missouri,2025-09-13 07:29,2025-09-18 07:29,robotics/automation units,7411.81,"fragile, shock protection required",38682,electronics
+23,atlanta,georgia,cleveland,ohio,2025-09-13 07:29,2025-09-17 07:29,hvac units,4752.31,forklift required at delivery,39321,electronics
+24,portland,oregon,las vegas,nevada,2025-09-11 07:29,2025-09-17 07:29,cranes,5485.66,"heavy load, confirm bridge clearance",11439,machinery
+25,denver,colorado,atlanta,georgia,2025-09-12 07:29,2025-09-13 07:29,cranes,3537.98,escort vehicle mandatory,28920,machinery
+26,houston,texas,atlanta,georgia,2025-09-10 07:29,2025-09-13 07:29,generators,3933.91,requires crane at delivery,36887,electronics
+27,phoenix,arizona,atlanta,georgia,2025-09-07 07:29,2025-09-13 07:29,construction machinery,1459.27,"oversized load, permits needed",8349,steel
+28,atlanta,georgia,portland,oregon,2025-09-14 07:29,2025-09-15 07:29,robotics/automation units,2797.52,"fragile, shock protection required",37055,electronics
+29,new york,new york,detroit,michigan,2025-09-09 07:29,2025-09-11 07:29,farm equipment,3290.94,"handle carefully, sensitive hydraulics",27741,beverages
+30,memphis,tennessee,denver,colorado,2025-09-09 07:29,2025-09-15 07:29,transformers,1716.18,"high-value, insurance required",12068,steel
+31,dallas,texas,san francisco,california,2025-09-06 07:29,2025-09-09 07:29,hvac units,3754.2,do not stack units,20952,paper goods
+32,cleveland,ohio,salt lake city,utah,2025-09-11 07:29,2025-09-14 07:29,medical equipment,2605.85,delivery to hospital dock only,11309,pharmaceuticals
+33,miami,florida,cleveland,ohio,2025-09-13 07:29,2025-09-19 07:29,mining equipment,6569.27,requires unloading with crane,13897,machinery
+34,portland,oregon,las vegas,nevada,2025-09-07 07:29,2025-09-12 07:29,generators,7590.05,secure load with chains,16740,electronics
+35,los angeles,california,miami,florida,2025-09-15 07:29,2025-09-21 07:29,medical equipment,4832.36,"fragile, no stacking",13257,pharmaceuticals
+36,cleveland,ohio,las vegas,nevada,2025-09-06 07:29,2025-09-09 07:29,construction machinery,3881.48,"oversized load, permits needed",35389,machinery
+37,seattle,washington,minneapolis,minnesota,2025-09-07 07:29,2025-09-13 07:29,farm equipment,2173.38,requires unloading assistance,46015,produce
+38,detroit,michigan,memphis,tennessee,2025-09-15 07:29,2025-09-21 07:29,construction machinery,1696.26,requires flatbed with ramps,34082,machinery
+39,portland,oregon,seattle,washington,2025-09-08 07:29,2025-09-09 07:29,wind turbines,5720.47,"oversized load, route survey required",29886,steel
+40,salt lake city,utah,seattle,washington,2025-09-07 07:29,2025-09-13 07:29,hvac units,2079.25,do not stack units,10756,electronics
+41,cleveland,ohio,st. louis,missouri,2025-09-07 07:29,2025-09-13 07:29,robotics/automation units,1659.17,delivery to tech facility only,14909,electronics
+42,dallas,texas,seattle,washington,2025-09-15 07:29,2025-09-21 07:29,farm equipment,2313.89,"handle carefully, sensitive hydraulics",16707,produce
+43,phoenix,arizona,los angeles,california,2025-09-06 07:29,2025-09-07 07:29,construction machinery,4734.81,must deliver to construction site,35496,steel
+44,houston,texas,dallas,texas,2025-09-11 07:29,2025-09-13 07:29,transformers,4755.41,special permits required,44076,machinery
+45,atlanta,georgia,houston,texas,2025-09-07 07:29,2025-09-12 07:29,cranes,5704.46,escort vehicle mandatory,17174,machinery
+46,memphis,tennessee,denver,colorado,2025-09-08 07:29,2025-09-09 07:29,transformers,3120.03,special permits required,38269,steel
+47,detroit,michigan,los angeles,california,2025-09-09 07:29,2025-09-12 07:29,farm equipment,6169.84,requires unloading assistance,21486,produce
+48,san francisco,california,new york,new york,2025-09-08 07:29,2025-09-15 07:29,hvac units,4868.03,protect from rain,14034,electronics
+49,detroit,michigan,portland,oregon,2025-09-12 07:29,2025-09-14 07:29,farm equipment,6887.65,delivery to rural farm,18153,beverages
+50,boston,massachusetts,cleveland,ohio,2025-09-10 07:29,2025-09-11 07:29,cranes,4470.82,escort vehicle mandatory,18910,steel
+51,las vegas,nevada,st. louis,missouri,2025-09-10 07:29,2025-09-16 07:29,cranes,4359.68,"heavy load, confirm bridge clearance",25316,machinery
+52,atlanta,georgia,minneapolis,minnesota,2025-09-13 07:29,2025-09-17 07:29,farm equipment,6670.35,requires unloading assistance,24664,beverages
+53,minneapolis,minnesota,seattle,washington,2025-09-12 07:29,2025-09-19 07:29,mining equipment,5022.97,"extra heavy, special trailer required",5433,machinery
+54,las vegas,nevada,minneapolis,minnesota,2025-09-07 07:29,2025-09-08 07:29,generators,5000.24,"fragile, handle with care",32200,electronics
+55,seattle,washington,san francisco,california,2025-09-11 07:29,2025-09-14 07:29,generators,7413.27,secure load with chains,20808,steel
+56,portland,oregon,detroit,michigan,2025-09-09 07:29,2025-09-16 07:29,construction machinery,2188.82,must deliver to construction site,39837,steel
+57,detroit,michigan,san francisco,california,2025-09-15 07:29,2025-09-19 07:29,cranes,2675.65,escort vehicle mandatory,10799,steel
+58,dallas,texas,minneapolis,minnesota,2025-09-08 07:29,2025-09-09 07:29,farm equipment,5592.83,delivery to rural farm,46560,produce
+59,atlanta,georgia,san francisco,california,2025-09-11 07:29,2025-09-17 07:29,generators,4121.85,requires crane at delivery,24790,steel
+60,new york,new york,minneapolis,minnesota,2025-09-07 07:29,2025-09-14 07:29,medical equipment,1765.54,"fragile, no stacking",30225,electronics
+61,portland,oregon,san francisco,california,2025-09-15 07:29,2025-09-21 07:29,cranes,6577.0,"heavy load, confirm bridge clearance",13283,steel
+62,seattle,washington,cleveland,ohio,2025-09-10 07:29,2025-09-16 07:29,generators,4936.07,requires crane at delivery,6442,machinery
+63,new york,new york,st. louis,missouri,2025-09-08 07:29,2025-09-14 07:29,hvac units,1463.23,forklift required at delivery,26080,electronics
+64,dallas,texas,houston,texas,2025-09-06 07:29,2025-09-07 07:29,generators,6399.16,"fragile, handle with care",13237,electronics
+65,houston,texas,portland,oregon,2025-09-06 07:29,2025-09-09 07:29,robotics/automation units,7622.0,temperature-sensitive cargo,29053,paper goods
+66,las vegas,nevada,boston,massachusetts,2025-09-12 07:29,2025-09-17 07:29,robotics/automation units,4525.98,"fragile, shock protection required",9589,paper goods
+67,new york,new york,memphis,tennessee,2025-09-15 07:29,2025-09-18 07:29,cranes,7158.03,requires special handling crew,24050,machinery
+68,san francisco,california,new york,new york,2025-09-11 07:29,2025-09-14 07:29,wind turbines,2758.07,escort vehicles required,41533,machinery
+69,st. louis,missouri,phoenix,arizona,2025-09-06 07:29,2025-09-11 07:29,transformers,1327.88,"high-value, insurance required",16507,machinery
+70,denver,colorado,las vegas,nevada,2025-09-10 07:29,2025-09-17 07:29,medical equipment,6173.93,temperature controlled environment required,30358,electronics
+71,st. louis,missouri,denver,colorado,2025-09-13 07:29,2025-09-16 07:29,generators,5058.37,secure load with chains,6320,steel
+72,minneapolis,minnesota,dallas,texas,2025-09-15 07:29,2025-09-16 07:29,farm equipment,2001.86,"handle carefully, sensitive hydraulics",15340,produce
+73,denver,colorado,new york,new york,2025-09-06 07:29,2025-09-07 07:29,farm equipment,2361.79,"handle carefully, sensitive hydraulics",33274,produce
+74,denver,colorado,seattle,washington,2025-09-13 07:29,2025-09-14 07:29,mining equipment,5879.24,requires unloading with crane,9482,machinery
+75,memphis,tennessee,cleveland,ohio,2025-09-13 07:29,2025-09-16 07:29,medical equipment,1333.47,"fragile, no stacking",6807,pharmaceuticals
+76,chicago,illinois,cleveland,ohio,2025-09-09 07:29,2025-09-11 07:29,farm equipment,5414.68,delivery to rural farm,14019,beverages
+77,minneapolis,minnesota,detroit,michigan,2025-09-11 07:29,2025-09-17 07:29,farm equipment,7345.85,delivery to rural farm,13790,produce
+78,st. louis,missouri,phoenix,arizona,2025-09-09 07:29,2025-09-11 07:29,generators,3560.82,"fragile, handle with care",11886,electronics
+79,los angeles,california,boston,massachusetts,2025-09-07 07:29,2025-09-12 07:29,construction machinery,1862.57,must deliver to construction site,12411,machinery
+80,las vegas,nevada,denver,colorado,2025-09-14 07:29,2025-09-20 07:29,mining equipment,6304.92,requires unloading with crane,10676,steel
+81,san francisco,california,dallas,texas,2025-09-09 07:29,2025-09-10 07:29,medical equipment,3838.16,"fragile, no stacking",26481,electronics
+82,chicago,illinois,las vegas,nevada,2025-09-10 07:29,2025-09-12 07:29,construction machinery,4256.3,must deliver to construction site,5933,steel
+83,houston,texas,denver,colorado,2025-09-10 07:29,2025-09-13 07:29,wind turbines,3627.87,handle with extreme care,22687,steel
+84,boston,massachusetts,cleveland,ohio,2025-09-08 07:29,2025-09-15 07:29,medical equipment,5916.8,temperature controlled environment required,27363,pharmaceuticals
+85,boston,massachusetts,memphis,tennessee,2025-09-15 07:29,2025-09-18 07:29,cranes,3845.17,requires special handling crew,24449,steel
+86,san francisco,california,portland,oregon,2025-09-07 07:29,2025-09-08 07:29,wind turbines,1856.4,escort vehicles required,46040,machinery
+87,portland,oregon,boston,massachusetts,2025-09-11 07:29,2025-09-14 07:29,mining equipment,4330.73,delivery to mining site,39967,machinery
+88,chicago,illinois,boston,massachusetts,2025-09-09 07:29,2025-09-14 07:29,robotics/automation units,1530.35,delivery to tech facility only,40524,paper goods
+89,las vegas,nevada,boston,massachusetts,2025-09-09 07:29,2025-09-15 07:29,medical equipment,7988.17,delivery to hospital dock only,36448,electronics
+90,houston,texas,dallas,texas,2025-09-07 07:29,2025-09-11 07:29,hvac units,4821.91,protect from rain,37331,electronics
+91,cleveland,ohio,new york,new york,2025-09-10 07:29,2025-09-17 07:29,transformers,7528.41,special permits required,47208,machinery
+92,dallas,texas,portland,oregon,2025-09-09 07:29,2025-09-10 07:29,medical equipment,1588.35,"fragile, no stacking",42932,pharmaceuticals
+93,phoenix,arizona,new york,new york,2025-09-15 07:29,2025-09-18 07:29,medical equipment,2141.19,delivery to hospital dock only,23153,pharmaceuticals
+94,las vegas,nevada,chicago,illinois,2025-09-15 07:29,2025-09-21 07:29,mining equipment,4157.73,"extra heavy, special trailer required",33375,steel
+95,dallas,texas,seattle,washington,2025-09-14 07:29,2025-09-17 07:29,cranes,6808.97,requires special handling crew,34871,machinery
+96,houston,texas,salt lake city,utah,2025-09-09 07:29,2025-09-13 07:29,cranes,5570.72,"heavy load, confirm bridge clearance",15029,steel
+97,boston,massachusetts,houston,texas,2025-09-10 07:29,2025-09-11 07:29,mining equipment,5558.17,delivery to mining site,38141,machinery
+98,dallas,texas,new york,new york,2025-09-08 07:29,2025-09-13 07:29,medical equipment,4345.23,delivery to hospital dock only,11819,electronics
+99,cleveland,ohio,memphis,tennessee,2025-09-09 07:29,2025-09-14 07:29,wind turbines,2180.64,escort vehicles required,21373,machinery
+100,st. louis,missouri,cleveland,ohio,2025-09-07 07:29,2025-09-08 07:29,hvac units,4138.69,do not stack units,36667,paper goods
+101,chicago,illinois,st. louis,missouri,2025-09-10 07:29,2025-09-17 07:29,cranes,2149.28,"heavy load, confirm bridge clearance",41847,steel
+102,salt lake city,utah,boston,massachusetts,2025-09-07 07:29,2025-09-08 07:29,generators,1560.79,requires crane at delivery,45642,electronics
+103,salt lake city,utah,los angeles,california,2025-09-10 07:29,2025-09-15 07:29,hvac units,3382.62,protect from rain,22631,electronics
+104,chicago,illinois,denver,colorado,2025-09-13 07:29,2025-09-16 07:29,generators,3069.79,"fragile, handle with care",11171,machinery
+105,minneapolis,minnesota,san francisco,california,2025-09-08 07:29,2025-09-10 07:29,robotics/automation units,1384.51,"fragile, shock protection required",27291,electronics
+106,portland,oregon,st. louis,missouri,2025-09-09 07:29,2025-09-10 07:29,construction machinery,6653.8,requires flatbed with ramps,5088,steel
+107,atlanta,georgia,cleveland,ohio,2025-09-06 07:29,2025-09-10 07:29,wind turbines,1914.13,handle with extreme care,42996,steel
+108,seattle,washington,salt lake city,utah,2025-09-06 07:29,2025-09-09 07:29,generators,4286.11,secure load with chains,16618,machinery
+109,dallas,texas,salt lake city,utah,2025-09-08 07:29,2025-09-13 07:29,transformers,4512.82,special permits required,19540,machinery
+110,chicago,illinois,houston,texas,2025-09-10 07:29,2025-09-13 07:29,medical equipment,7689.36,delivery to hospital dock only,36072,pharmaceuticals
+111,portland,oregon,cleveland,ohio,2025-09-12 07:29,2025-09-15 07:29,transformers,7061.67,needs escort vehicle,8531,machinery
+112,atlanta,georgia,dallas,texas,2025-09-15 07:29,2025-09-17 07:29,cranes,4525.24,"heavy load, confirm bridge clearance",15047,steel
+113,phoenix,arizona,portland,oregon,2025-09-11 07:29,2025-09-18 07:29,wind turbines,5999.06,"oversized load, route survey required",13577,steel
+114,minneapolis,minnesota,miami,florida,2025-09-10 07:29,2025-09-15 07:29,generators,5007.76,secure load with chains,45810,electronics
+115,denver,colorado,st. louis,missouri,2025-09-12 07:29,2025-09-16 07:29,generators,7257.41,"fragile, handle with care",43595,steel
+116,phoenix,arizona,minneapolis,minnesota,2025-09-12 07:29,2025-09-16 07:29,medical equipment,3819.23,"fragile, no stacking",29968,electronics
+117,phoenix,arizona,cleveland,ohio,2025-09-10 07:29,2025-09-13 07:29,generators,1218.29,requires crane at delivery,31892,electronics
+118,denver,colorado,st. louis,missouri,2025-09-09 07:29,2025-09-13 07:29,medical equipment,3799.14,temperature controlled environment required,26616,pharmaceuticals
+119,los angeles,california,dallas,texas,2025-09-11 07:29,2025-09-16 07:29,mining equipment,6681.96,delivery to mining site,17532,machinery
+120,boston,massachusetts,memphis,tennessee,2025-09-13 07:29,2025-09-18 07:29,robotics/automation units,6396.06,"fragile, shock protection required",44245,paper goods
+121,salt lake city,utah,los angeles,california,2025-09-08 07:29,2025-09-15 07:29,hvac units,6157.27,protect from rain,22291,electronics
+122,atlanta,georgia,dallas,texas,2025-09-07 07:29,2025-09-08 07:29,construction machinery,7368.4,"oversized load, permits needed",33329,machinery
+123,atlanta,georgia,new york,new york,2025-09-12 07:29,2025-09-16 07:29,mining equipment,7284.33,requires unloading with crane,29165,machinery
+124,chicago,illinois,portland,oregon,2025-09-13 07:29,2025-09-19 07:29,wind turbines,7731.59,"oversized load, route survey required",20448,machinery
+125,las vegas,nevada,salt lake city,utah,2025-09-09 07:29,2025-09-13 07:29,generators,5580.65,requires crane at delivery,26291,machinery
+126,san francisco,california,st. louis,missouri,2025-09-13 07:29,2025-09-17 07:29,hvac units,7991.0,protect from rain,30006,electronics
+127,minneapolis,minnesota,las vegas,nevada,2025-09-14 07:29,2025-09-18 07:29,farm equipment,3780.54,requires unloading assistance,29334,beverages
+128,phoenix,arizona,denver,colorado,2025-09-10 07:29,2025-09-12 07:29,farm equipment,4001.73,delivery to rural farm,38059,beverages
+129,phoenix,arizona,new york,new york,2025-09-14 07:29,2025-09-21 07:29,mining equipment,7370.8,"extra heavy, special trailer required",38349,steel
+130,las vegas,nevada,denver,colorado,2025-09-06 07:29,2025-09-12 07:29,robotics/automation units,3100.56,temperature-sensitive cargo,47310,electronics
+131,san francisco,california,phoenix,arizona,2025-09-14 07:29,2025-09-18 07:29,robotics/automation units,2230.31,delivery to tech facility only,10687,paper goods
+132,boston,massachusetts,houston,texas,2025-09-06 07:29,2025-09-10 07:29,wind turbines,3879.67,escort vehicles required,35274,steel
+133,boston,massachusetts,phoenix,arizona,2025-09-14 07:29,2025-09-20 07:29,transformers,5385.32,needs escort vehicle,26789,machinery
+134,seattle,washington,houston,texas,2025-09-11 07:29,2025-09-18 07:29,wind turbines,5115.7,escort vehicles required,30543,machinery
+135,detroit,michigan,boston,massachusetts,2025-09-06 07:29,2025-09-12 07:29,robotics/automation units,3872.9,"fragile, shock protection required",44614,paper goods
+136,boston,massachusetts,detroit,michigan,2025-09-15 07:29,2025-09-21 07:29,robotics/automation units,5349.57,temperature-sensitive cargo,26407,paper goods
+137,los angeles,california,atlanta,georgia,2025-09-08 07:29,2025-09-09 07:29,robotics/automation units,7651.17,temperature-sensitive cargo,11876,paper goods
+138,cleveland,ohio,san francisco,california,2025-09-09 07:29,2025-09-14 07:29,wind turbines,5825.49,handle with extreme care,43027,machinery
+139,st. louis,missouri,miami,florida,2025-09-08 07:29,2025-09-11 07:29,mining equipment,1964.08,requires unloading with crane,30806,machinery
+140,dallas,texas,seattle,washington,2025-09-10 07:29,2025-09-13 07:29,farm equipment,6560.47,requires unloading assistance,9462,produce
+141,denver,colorado,seattle,washington,2025-09-09 07:29,2025-09-12 07:29,transformers,6254.75,needs escort vehicle,27157,steel
+142,denver,colorado,dallas,texas,2025-09-07 07:29,2025-09-14 07:29,medical equipment,6090.89,temperature controlled environment required,22887,electronics
+143,detroit,michigan,miami,florida,2025-09-13 07:29,2025-09-16 07:29,construction machinery,1453.9,requires flatbed with ramps,25867,machinery
+144,phoenix,arizona,minneapolis,minnesota,2025-09-14 07:29,2025-09-17 07:29,generators,2345.78,"fragile, handle with care",39394,steel
+145,los angeles,california,minneapolis,minnesota,2025-09-06 07:29,2025-09-10 07:29,wind turbines,4212.34,escort vehicles required,17672,steel
+146,houston,texas,seattle,washington,2025-09-09 07:29,2025-09-11 07:29,wind turbines,4089.39,escort vehicles required,10529,steel
+147,salt lake city,utah,chicago,illinois,2025-09-15 07:29,2025-09-17 07:29,cranes,2918.04,"heavy load, confirm bridge clearance",12349,steel
+148,atlanta,georgia,phoenix,arizona,2025-09-15 07:29,2025-09-19 07:29,medical equipment,5278.51,delivery to hospital dock only,32128,electronics
+149,minneapolis,minnesota,cleveland,ohio,2025-09-10 07:29,2025-09-17 07:29,construction machinery,3781.34,requires flatbed with ramps,22477,machinery
+150,dallas,texas,atlanta,georgia,2025-09-10 07:29,2025-09-11 07:29,construction machinery,1871.36,requires flatbed with ramps,27921,machinery
+151,las vegas,nevada,salt lake city,utah,2025-09-09 07:29,2025-09-13 07:29,medical equipment,7188.11,delivery to hospital dock only,26100,electronics
+152,chicago,illinois,dallas,texas,2025-09-10 07:29,2025-09-13 07:29,wind turbines,6572.79,"oversized load, route survey required",38942,steel
+153,minneapolis,minnesota,portland,oregon,2025-09-14 07:29,2025-09-17 07:29,construction machinery,4917.35,"oversized load, permits needed",9407,machinery
+154,phoenix,arizona,cleveland,ohio,2025-09-11 07:29,2025-09-17 07:29,robotics/automation units,3518.44,temperature-sensitive cargo,29006,paper goods
+155,los angeles,california,new york,new york,2025-09-11 07:29,2025-09-17 07:29,construction machinery,5269.24,must deliver to construction site,25053,steel
+156,memphis,tennessee,minneapolis,minnesota,2025-09-15 07:29,2025-09-16 07:29,mining equipment,5952.89,"extra heavy, special trailer required",18900,machinery
+157,phoenix,arizona,detroit,michigan,2025-09-09 07:29,2025-09-15 07:29,mining equipment,4437.26,delivery to mining site,41985,steel
+158,atlanta,georgia,denver,colorado,2025-09-13 07:29,2025-09-20 07:29,medical equipment,1348.49,temperature controlled environment required,16013,electronics
+159,new york,new york,atlanta,georgia,2025-09-07 07:29,2025-09-08 07:29,cranes,6741.96,"heavy load, confirm bridge clearance",28169,machinery
+160,houston,texas,portland,oregon,2025-09-15 07:29,2025-09-19 07:29,generators,4672.62,secure load with chains,45992,steel
+161,st. louis,missouri,phoenix,arizona,2025-09-13 07:29,2025-09-20 07:29,wind turbines,5724.24,"oversized load, route survey required",39509,machinery
+162,denver,colorado,new york,new york,2025-09-12 07:29,2025-09-15 07:29,farm equipment,5556.84,delivery to rural farm,27230,produce
+163,dallas,texas,detroit,michigan,2025-09-07 07:29,2025-09-10 07:29,construction machinery,5775.02,"oversized load, permits needed",42016,machinery
+164,detroit,michigan,st. louis,missouri,2025-09-08 07:29,2025-09-13 07:29,cranes,5858.96,requires special handling crew,17596,machinery
+165,portland,oregon,denver,colorado,2025-09-12 07:29,2025-09-18 07:29,generators,4737.05,requires crane at delivery,20732,electronics
+166,phoenix,arizona,houston,texas,2025-09-15 07:29,2025-09-18 07:29,mining equipment,2917.04,requires unloading with crane,36592,steel
+167,detroit,michigan,cleveland,ohio,2025-09-13 07:29,2025-09-20 07:29,hvac units,3238.59,do not stack units,11588,paper goods
+168,detroit,michigan,minneapolis,minnesota,2025-09-07 07:29,2025-09-14 07:29,cranes,7595.14,requires special handling crew,36849,steel
+169,las vegas,nevada,st. louis,missouri,2025-09-07 07:29,2025-09-14 07:29,robotics/automation units,2027.95,"fragile, shock protection required",26719,paper goods
+170,seattle,washington,atlanta,georgia,2025-09-10 07:29,2025-09-15 07:29,transformers,2253.41,"high-value, insurance required",8907,steel
+171,phoenix,arizona,los angeles,california,2025-09-13 07:29,2025-09-14 07:29,wind turbines,7415.5,escort vehicles required,30748,machinery
+172,new york,new york,boston,massachusetts,2025-09-09 07:29,2025-09-11 07:29,construction machinery,4277.48,"oversized load, permits needed",40350,machinery
+173,las vegas,nevada,phoenix,arizona,2025-09-08 07:29,2025-09-10 07:29,transformers,2890.64,"high-value, insurance required",16106,machinery
+174,los angeles,california,dallas,texas,2025-09-13 07:29,2025-09-17 07:29,wind turbines,1479.42,handle with extreme care,9121,steel
+175,miami,florida,chicago,illinois,2025-09-07 07:29,2025-09-08 07:29,farm equipment,1223.72,"handle carefully, sensitive hydraulics",17561,produce
+176,seattle,washington,st. louis,missouri,2025-09-07 07:29,2025-09-09 07:29,farm equipment,4229.91,delivery to rural farm,16689,beverages
+177,phoenix,arizona,st. louis,missouri,2025-09-10 07:29,2025-09-15 07:29,generators,3776.89,requires crane at delivery,44946,machinery
+178,minneapolis,minnesota,seattle,washington,2025-09-14 07:29,2025-09-20 07:29,construction machinery,5120.78,must deliver to construction site,46970,machinery
+179,detroit,michigan,denver,colorado,2025-09-10 07:29,2025-09-12 07:29,medical equipment,5141.5,delivery to hospital dock only,17531,pharmaceuticals
+180,atlanta,georgia,chicago,illinois,2025-09-07 07:29,2025-09-12 07:29,medical equipment,4062.48,temperature controlled environment required,34775,pharmaceuticals
+181,houston,texas,salt lake city,utah,2025-09-07 07:29,2025-09-14 07:29,wind turbines,3833.28,"oversized load, route survey required",31245,steel
+182,salt lake city,utah,seattle,washington,2025-09-13 07:29,2025-09-20 07:29,robotics/automation units,2757.33,"fragile, shock protection required",28589,electronics
+183,los angeles,california,dallas,texas,2025-09-14 07:29,2025-09-20 07:29,farm equipment,6266.94,requires unloading assistance,16041,produce
+184,seattle,washington,houston,texas,2025-09-14 07:29,2025-09-15 07:29,construction machinery,2158.13,"oversized load, permits needed",9825,steel
+185,detroit,michigan,dallas,texas,2025-09-06 07:29,2025-09-09 07:29,construction machinery,1364.54,must deliver to construction site,34874,steel
+186,portland,oregon,minneapolis,minnesota,2025-09-11 07:29,2025-09-16 07:29,farm equipment,1507.75,delivery to rural farm,21851,beverages
+187,portland,oregon,dallas,texas,2025-09-15 07:29,2025-09-22 07:29,construction machinery,3822.16,requires flatbed with ramps,17361,steel
+188,phoenix,arizona,st. louis,missouri,2025-09-09 07:29,2025-09-14 07:29,mining equipment,4942.42,delivery to mining site,27378,machinery
+189,memphis,tennessee,houston,texas,2025-09-09 07:29,2025-09-13 07:29,medical equipment,4069.07,temperature controlled environment required,30594,pharmaceuticals
+190,st. louis,missouri,cleveland,ohio,2025-09-09 07:29,2025-09-11 07:29,medical equipment,5399.56,delivery to hospital dock only,13569,pharmaceuticals
+191,las vegas,nevada,portland,oregon,2025-09-08 07:29,2025-09-12 07:29,generators,1271.45,requires crane at delivery,46486,electronics
+192,atlanta,georgia,portland,oregon,2025-09-12 07:29,2025-09-15 07:29,hvac units,1685.87,forklift required at delivery,38327,paper goods
+193,minneapolis,minnesota,chicago,illinois,2025-09-07 07:29,2025-09-12 07:29,transformers,3628.24,special permits required,44008,machinery
+194,dallas,texas,los angeles,california,2025-09-06 07:29,2025-09-09 07:29,medical equipment,6858.78,delivery to hospital dock only,19328,electronics
+195,chicago,illinois,atlanta,georgia,2025-09-15 07:29,2025-09-21 07:29,transformers,7458.56,special permits required,46157,machinery
+196,portland,oregon,new york,new york,2025-09-15 07:29,2025-09-18 07:29,robotics/automation units,5597.23,"fragile, shock protection required",18602,electronics
+197,boston,massachusetts,minneapolis,minnesota,2025-09-08 07:29,2025-09-09 07:29,hvac units,1767.09,forklift required at delivery,47608,electronics
+198,miami,florida,los angeles,california,2025-09-12 07:29,2025-09-13 07:29,cranes,5265.91,requires special handling crew,39659,machinery
+199,miami,florida,cleveland,ohio,2025-09-07 07:29,2025-09-09 07:29,robotics/automation units,5111.79,"fragile, shock protection required",32269,electronics
+200,houston,texas,denver,colorado,2025-09-14 07:29,2025-09-18 07:29,generators,7374.69,"fragile, handle with care",23610,steel
+201,new york,new york,los angeles,california,2025-09-14 07:29,2025-09-21 07:29,wind turbines,2006.31,handle with extreme care,16319,steel
+202,denver,colorado,detroit,michigan,2025-09-08 07:29,2025-09-11 07:29,hvac units,1460.98,protect from rain,34532,paper goods
+203,portland,oregon,phoenix,arizona,2025-09-06 07:29,2025-09-11 07:29,generators,1764.79,secure load with chains,43231,steel
+204,miami,florida,memphis,tennessee,2025-09-11 07:29,2025-09-17 07:29,transformers,5136.17,"high-value, insurance required",23864,machinery
+205,houston,texas,boston,massachusetts,2025-09-15 07:29,2025-09-22 07:29,construction machinery,4626.91,requires flatbed with ramps,11475,steel
+206,los angeles,california,portland,oregon,2025-09-13 07:29,2025-09-17 07:29,generators,5325.15,secure load with chains,14735,steel
+207,cleveland,ohio,san francisco,california,2025-09-14 07:29,2025-09-19 07:29,mining equipment,6711.03,requires unloading with crane,32915,machinery
+208,chicago,illinois,memphis,tennessee,2025-09-09 07:29,2025-09-12 07:29,wind turbines,5358.95,escort vehicles required,39713,machinery
+209,boston,massachusetts,memphis,tennessee,2025-09-11 07:29,2025-09-14 07:29,transformers,1349.64,special permits required,47506,machinery
+210,minneapolis,minnesota,atlanta,georgia,2025-09-15 07:29,2025-09-19 07:29,robotics/automation units,6656.8,delivery to tech facility only,27580,paper goods
+211,los angeles,california,las vegas,nevada,2025-09-11 07:29,2025-09-12 07:29,mining equipment,1488.89,delivery to mining site,6217,steel
+212,chicago,illinois,detroit,michigan,2025-09-11 07:29,2025-09-14 07:29,robotics/automation units,3376.62,"fragile, shock protection required",34692,electronics
+213,new york,new york,st. louis,missouri,2025-09-13 07:29,2025-09-15 07:29,medical equipment,4936.78,"fragile, no stacking",40720,electronics
+214,miami,florida,los angeles,california,2025-09-13 07:29,2025-09-15 07:29,generators,4815.15,secure load with chains,33572,steel
+215,los angeles,california,st. louis,missouri,2025-09-09 07:29,2025-09-10 07:29,medical equipment,3608.79,"fragile, no stacking",30690,pharmaceuticals
+216,detroit,michigan,portland,oregon,2025-09-14 07:29,2025-09-21 07:29,transformers,3277.2,special permits required,44183,machinery
+217,memphis,tennessee,houston,texas,2025-09-12 07:29,2025-09-18 07:29,generators,6972.05,requires crane at delivery,20420,machinery
+218,chicago,illinois,los angeles,california,2025-09-06 07:29,2025-09-12 07:29,cranes,1596.39,escort vehicle mandatory,5679,steel
+219,dallas,texas,phoenix,arizona,2025-09-07 07:29,2025-09-08 07:29,generators,7072.58,secure load with chains,31685,electronics
+220,detroit,michigan,new york,new york,2025-09-09 07:29,2025-09-14 07:29,transformers,3883.12,"high-value, insurance required",29331,machinery
+221,boston,massachusetts,portland,oregon,2025-09-06 07:29,2025-09-13 07:29,hvac units,7691.13,do not stack units,33781,electronics
+222,cleveland,ohio,los angeles,california,2025-09-12 07:29,2025-09-15 07:29,generators,2482.9,"fragile, handle with care",42720,machinery
+223,miami,florida,los angeles,california,2025-09-06 07:29,2025-09-10 07:29,mining equipment,1214.14,requires unloading with crane,20751,machinery
+224,boston,massachusetts,minneapolis,minnesota,2025-09-10 07:29,2025-09-12 07:29,construction machinery,2892.05,requires flatbed with ramps,11910,steel
+225,atlanta,georgia,memphis,tennessee,2025-09-08 07:29,2025-09-14 07:29,mining equipment,1211.18,delivery to mining site,38789,machinery
+226,dallas,texas,boston,massachusetts,2025-09-06 07:29,2025-09-13 07:29,transformers,3646.32,needs escort vehicle,11522,machinery
+227,salt lake city,utah,st. louis,missouri,2025-09-10 07:29,2025-09-15 07:29,cranes,7889.09,"heavy load, confirm bridge clearance",18558,steel
+228,minneapolis,minnesota,portland,oregon,2025-09-08 07:29,2025-09-15 07:29,hvac units,1452.87,do not stack units,26197,electronics
+229,st. louis,missouri,portland,oregon,2025-09-07 07:29,2025-09-14 07:29,robotics/automation units,6022.4,delivery to tech facility only,23743,paper goods
+230,san francisco,california,salt lake city,utah,2025-09-08 07:29,2025-09-12 07:29,transformers,5237.98,"high-value, insurance required",41427,steel
+231,san francisco,california,memphis,tennessee,2025-09-14 07:29,2025-09-17 07:29,wind turbines,3490.2,escort vehicles required,45900,steel
+232,portland,oregon,salt lake city,utah,2025-09-11 07:29,2025-09-15 07:29,cranes,7745.67,requires special handling crew,21588,steel
+233,houston,texas,miami,florida,2025-09-09 07:29,2025-09-16 07:29,transformers,2951.87,special permits required,35149,steel
+234,new york,new york,las vegas,nevada,2025-09-06 07:29,2025-09-10 07:29,medical equipment,7636.27,temperature controlled environment required,28472,electronics
+235,seattle,washington,memphis,tennessee,2025-09-06 07:29,2025-09-07 07:29,mining equipment,4944.73,requires unloading with crane,22176,steel
+236,los angeles,california,st. louis,missouri,2025-09-09 07:29,2025-09-16 07:29,medical equipment,4706.55,temperature controlled environment required,21954,pharmaceuticals
+237,salt lake city,utah,miami,florida,2025-09-14 07:29,2025-09-18 07:29,robotics/automation units,4200.16,temperature-sensitive cargo,35633,electronics
+238,chicago,illinois,houston,texas,2025-09-09 07:29,2025-09-10 07:29,medical equipment,2147.8,delivery to hospital dock only,44322,pharmaceuticals
+239,memphis,tennessee,denver,colorado,2025-09-06 07:29,2025-09-08 07:29,transformers,5371.15,special permits required,39565,machinery
+240,portland,oregon,houston,texas,2025-09-07 07:29,2025-09-11 07:29,medical equipment,3207.54,delivery to hospital dock only,5917,electronics
+241,memphis,tennessee,phoenix,arizona,2025-09-06 07:29,2025-09-07 07:29,generators,7098.42,"fragile, handle with care",8484,machinery
+242,houston,texas,chicago,illinois,2025-09-09 07:29,2025-09-15 07:29,cranes,3628.35,escort vehicle mandatory,9740,steel
+243,phoenix,arizona,las vegas,nevada,2025-09-09 07:29,2025-09-12 07:29,construction machinery,2742.15,"oversized load, permits needed",42713,steel
+244,chicago,illinois,memphis,tennessee,2025-09-12 07:29,2025-09-15 07:29,cranes,6611.33,escort vehicle mandatory,9433,machinery
+245,boston,massachusetts,las vegas,nevada,2025-09-15 07:29,2025-09-17 07:29,transformers,2297.33,"high-value, insurance required",37146,machinery
+246,atlanta,georgia,denver,colorado,2025-09-11 07:29,2025-09-12 07:29,construction machinery,3696.92,must deliver to construction site,18104,steel
+247,houston,texas,st. louis,missouri,2025-09-15 07:29,2025-09-22 07:29,hvac units,2615.94,do not stack units,15308,electronics
+248,chicago,illinois,st. louis,missouri,2025-09-14 07:29,2025-09-21 07:29,transformers,2289.45,needs escort vehicle,46463,steel
+249,portland,oregon,phoenix,arizona,2025-09-10 07:29,2025-09-11 07:29,mining equipment,1478.75,"extra heavy, special trailer required",38667,machinery
+250,seattle,washington,houston,texas,2025-09-14 07:29,2025-09-21 07:29,medical equipment,5740.22,temperature controlled environment required,29347,electronics
+251,los angeles,california,seattle,washington,2025-09-06 07:29,2025-09-07 07:29,construction machinery,4021.76,"oversized load, permits needed",37321,machinery
+252,cleveland,ohio,minneapolis,minnesota,2025-09-13 07:29,2025-09-20 07:29,hvac units,3019.61,forklift required at delivery,37401,electronics
+253,boston,massachusetts,minneapolis,minnesota,2025-09-13 07:29,2025-09-16 07:29,generators,4056.01,requires crane at delivery,6911,steel
+254,atlanta,georgia,houston,texas,2025-09-12 07:29,2025-09-17 07:29,medical equipment,6633.23,"fragile, no stacking",40511,pharmaceuticals
+255,minneapolis,minnesota,houston,texas,2025-09-06 07:29,2025-09-11 07:29,generators,3647.14,"fragile, handle with care",29177,steel
+256,portland,oregon,phoenix,arizona,2025-09-08 07:29,2025-09-13 07:29,construction machinery,5958.43,must deliver to construction site,9883,steel
+257,las vegas,nevada,minneapolis,minnesota,2025-09-09 07:29,2025-09-13 07:29,hvac units,7465.8,do not stack units,10699,paper goods
+258,salt lake city,utah,cleveland,ohio,2025-09-14 07:29,2025-09-18 07:29,transformers,6083.86,special permits required,35075,steel
+259,miami,florida,salt lake city,utah,2025-09-15 07:29,2025-09-22 07:29,cranes,4259.02,"heavy load, confirm bridge clearance",27212,machinery
+260,houston,texas,detroit,michigan,2025-09-10 07:29,2025-09-12 07:29,medical equipment,6758.97,"fragile, no stacking",11703,pharmaceuticals
+261,portland,oregon,seattle,washington,2025-09-08 07:29,2025-09-11 07:29,mining equipment,5691.72,requires unloading with crane,9219,machinery
+262,st. louis,missouri,boston,massachusetts,2025-09-10 07:29,2025-09-15 07:29,farm equipment,4783.95,delivery to rural farm,17300,beverages
+263,minneapolis,minnesota,phoenix,arizona,2025-09-09 07:29,2025-09-12 07:29,mining equipment,3827.35,delivery to mining site,37406,machinery
+264,salt lake city,utah,seattle,washington,2025-09-13 07:29,2025-09-14 07:29,robotics/automation units,2152.24,delivery to tech facility only,12302,paper goods
+265,atlanta,georgia,las vegas,nevada,2025-09-06 07:29,2025-09-13 07:29,construction machinery,2146.98,must deliver to construction site,34044,machinery
+266,seattle,washington,detroit,michigan,2025-09-15 07:29,2025-09-19 07:29,wind turbines,3479.53,handle with extreme care,45698,steel
+267,chicago,illinois,new york,new york,2025-09-10 07:29,2025-09-14 07:29,cranes,1243.46,"heavy load, confirm bridge clearance",27103,steel
+268,minneapolis,minnesota,phoenix,arizona,2025-09-11 07:29,2025-09-16 07:29,generators,5504.82,secure load with chains,42198,electronics
+269,las vegas,nevada,memphis,tennessee,2025-09-07 07:29,2025-09-14 07:29,hvac units,4414.0,protect from rain,39590,electronics
+270,st. louis,missouri,salt lake city,utah,2025-09-06 07:29,2025-09-11 07:29,cranes,2754.57,requires special handling crew,28131,machinery
+271,detroit,michigan,miami,florida,2025-09-08 07:29,2025-09-14 07:29,mining equipment,6020.03,requires unloading with crane,45580,steel
+272,dallas,texas,denver,colorado,2025-09-15 07:29,2025-09-17 07:29,generators,5323.19,requires crane at delivery,5997,machinery
+273,portland,oregon,minneapolis,minnesota,2025-09-10 07:29,2025-09-12 07:29,mining equipment,4461.96,requires unloading with crane,40525,steel
+274,las vegas,nevada,cleveland,ohio,2025-09-14 07:29,2025-09-19 07:29,farm equipment,7973.93,requires unloading assistance,14054,beverages
+275,chicago,illinois,portland,oregon,2025-09-13 07:29,2025-09-19 07:29,hvac units,2586.3,do not stack units,11493,paper goods
+276,seattle,washington,houston,texas,2025-09-09 07:29,2025-09-16 07:29,construction machinery,2700.99,"oversized load, permits needed",9915,steel
+277,salt lake city,utah,houston,texas,2025-09-15 07:29,2025-09-21 07:29,hvac units,6670.08,do not stack units,33685,electronics
+278,san francisco,california,houston,texas,2025-09-13 07:29,2025-09-14 07:29,robotics/automation units,3657.35,"fragile, shock protection required",5341,electronics
+279,st. louis,missouri,seattle,washington,2025-09-07 07:29,2025-09-10 07:29,construction machinery,7155.87,must deliver to construction site,12827,steel
+280,las vegas,nevada,salt lake city,utah,2025-09-08 07:29,2025-09-13 07:29,construction machinery,4848.12,requires flatbed with ramps,28696,steel
+281,portland,oregon,cleveland,ohio,2025-09-09 07:29,2025-09-16 07:29,farm equipment,7318.39,delivery to rural farm,15108,produce
+282,phoenix,arizona,minneapolis,minnesota,2025-09-15 07:29,2025-09-22 07:29,medical equipment,1717.56,"fragile, no stacking",39108,pharmaceuticals
+283,phoenix,arizona,denver,colorado,2025-09-08 07:29,2025-09-09 07:29,farm equipment,3584.88,delivery to rural farm,12021,produce
+284,boston,massachusetts,cleveland,ohio,2025-09-13 07:29,2025-09-15 07:29,hvac units,5589.49,forklift required at delivery,17898,paper goods
+285,phoenix,arizona,atlanta,georgia,2025-09-09 07:29,2025-09-10 07:29,farm equipment,2758.22,"handle carefully, sensitive hydraulics",30906,produce
+286,los angeles,california,chicago,illinois,2025-09-13 07:29,2025-09-19 07:29,generators,4877.75,secure load with chains,18189,machinery
+287,chicago,illinois,denver,colorado,2025-09-07 07:29,2025-09-13 07:29,medical equipment,5621.11,delivery to hospital dock only,15796,pharmaceuticals
+288,detroit,michigan,dallas,texas,2025-09-10 07:29,2025-09-12 07:29,farm equipment,6411.48,requires unloading assistance,20324,beverages
+289,houston,texas,atlanta,georgia,2025-09-07 07:29,2025-09-08 07:29,generators,2788.47,"fragile, handle with care",30556,electronics
+290,los angeles,california,boston,massachusetts,2025-09-15 07:29,2025-09-20 07:29,mining equipment,4079.34,delivery to mining site,31625,machinery
+291,memphis,tennessee,new york,new york,2025-09-09 07:29,2025-09-13 07:29,robotics/automation units,6422.02,delivery to tech facility only,38626,electronics
+292,seattle,washington,minneapolis,minnesota,2025-09-10 07:29,2025-09-11 07:29,mining equipment,7957.25,delivery to mining site,41322,machinery
+293,los angeles,california,seattle,washington,2025-09-15 07:29,2025-09-20 07:29,hvac units,4311.15,do not stack units,18005,paper goods
+294,denver,colorado,st. louis,missouri,2025-09-14 07:29,2025-09-15 07:29,construction machinery,1310.64,must deliver to construction site,45585,machinery
+295,miami,florida,memphis,tennessee,2025-09-06 07:29,2025-09-11 07:29,robotics/automation units,3266.1,delivery to tech facility only,38782,electronics
+296,dallas,texas,atlanta,georgia,2025-09-14 07:29,2025-09-21 07:29,medical equipment,6223.31,delivery to hospital dock only,18731,pharmaceuticals
+297,atlanta,georgia,phoenix,arizona,2025-09-06 07:29,2025-09-11 07:29,farm equipment,7851.14,delivery to rural farm,32474,produce
+298,cleveland,ohio,seattle,washington,2025-09-07 07:29,2025-09-14 07:29,generators,1900.91,secure load with chains,6230,machinery
+299,minneapolis,minnesota,san francisco,california,2025-09-09 07:29,2025-09-10 07:29,mining equipment,3122.32,delivery to mining site,11908,steel
+300,denver,colorado,portland,oregon,2025-09-06 07:29,2025-09-10 07:29,hvac units,5944.66,do not stack units,23298,paper goods
+301,las vegas,nevada,phoenix,arizona,2025-09-07 07:29,2025-09-11 07:29,medical equipment,4728.02,temperature controlled environment required,16932,pharmaceuticals
+302,boston,massachusetts,denver,colorado,2025-09-14 07:29,2025-09-15 07:29,construction machinery,7833.75,must deliver to construction site,31330,machinery
+303,chicago,illinois,cleveland,ohio,2025-09-07 07:29,2025-09-08 07:29,medical equipment,7339.9,delivery to hospital dock only,17935,electronics
+304,new york,new york,atlanta,georgia,2025-09-10 07:29,2025-09-11 07:29,robotics/automation units,5762.96,"fragile, shock protection required",11164,paper goods
+305,dallas,texas,denver,colorado,2025-09-14 07:29,2025-09-17 07:29,construction machinery,2733.38,"oversized load, permits needed",46296,steel
+306,houston,texas,chicago,illinois,2025-09-12 07:29,2025-09-19 07:29,construction machinery,4664.93,requires flatbed with ramps,17497,steel
+307,atlanta,georgia,phoenix,arizona,2025-09-14 07:29,2025-09-21 07:29,cranes,3288.64,escort vehicle mandatory,35450,machinery
+308,los angeles,california,las vegas,nevada,2025-09-10 07:29,2025-09-16 07:29,wind turbines,3516.91,"oversized load, route survey required",45197,steel
+309,chicago,illinois,salt lake city,utah,2025-09-13 07:29,2025-09-17 07:29,medical equipment,2622.43,delivery to hospital dock only,32294,pharmaceuticals
+310,new york,new york,seattle,washington,2025-09-06 07:29,2025-09-11 07:29,construction machinery,4950.33,requires flatbed with ramps,23886,steel
+311,detroit,michigan,salt lake city,utah,2025-09-08 07:29,2025-09-13 07:29,farm equipment,5844.93,delivery to rural farm,39847,produce
+312,detroit,michigan,cleveland,ohio,2025-09-07 07:29,2025-09-13 07:29,hvac units,6637.59,forklift required at delivery,42306,paper goods
+313,st. louis,missouri,new york,new york,2025-09-07 07:29,2025-09-08 07:29,medical equipment,3487.3,temperature controlled environment required,5830,pharmaceuticals
+314,dallas,texas,new york,new york,2025-09-06 07:29,2025-09-10 07:29,medical equipment,7446.3,"fragile, no stacking",39420,pharmaceuticals
+315,miami,florida,new york,new york,2025-09-11 07:29,2025-09-12 07:29,robotics/automation units,2967.11,"fragile, shock protection required",6503,paper goods
+316,memphis,tennessee,st. louis,missouri,2025-09-07 07:29,2025-09-09 07:29,robotics/automation units,4408.96,temperature-sensitive cargo,42154,paper goods
+317,chicago,illinois,miami,florida,2025-09-12 07:29,2025-09-19 07:29,mining equipment,6885.58,requires unloading with crane,40329,machinery
+318,chicago,illinois,atlanta,georgia,2025-09-06 07:29,2025-09-10 07:29,hvac units,6491.62,do not stack units,22187,paper goods
+319,chicago,illinois,denver,colorado,2025-09-06 07:29,2025-09-12 07:29,cranes,5077.65,"heavy load, confirm bridge clearance",27404,machinery
+320,los angeles,california,chicago,illinois,2025-09-10 07:29,2025-09-17 07:29,hvac units,3127.54,protect from rain,37469,electronics
+321,st. louis,missouri,miami,florida,2025-09-10 07:29,2025-09-16 07:29,cranes,3362.28,requires special handling crew,12157,machinery
+322,new york,new york,st. louis,missouri,2025-09-06 07:29,2025-09-10 07:29,farm equipment,2304.57,requires unloading assistance,37594,produce
+323,houston,texas,atlanta,georgia,2025-09-12 07:29,2025-09-18 07:29,generators,4250.42,"fragile, handle with care",36603,electronics
+324,chicago,illinois,minneapolis,minnesota,2025-09-13 07:29,2025-09-20 07:29,medical equipment,3757.64,"fragile, no stacking",44186,electronics
+325,seattle,washington,cleveland,ohio,2025-09-13 07:29,2025-09-19 07:29,robotics/automation units,1493.97,delivery to tech facility only,20232,paper goods
+326,cleveland,ohio,atlanta,georgia,2025-09-08 07:29,2025-09-11 07:29,wind turbines,2984.48,"oversized load, route survey required",5254,machinery
+327,dallas,texas,phoenix,arizona,2025-09-07 07:29,2025-09-08 07:29,farm equipment,2104.43,"handle carefully, sensitive hydraulics",12426,beverages
+328,salt lake city,utah,st. louis,missouri,2025-09-07 07:29,2025-09-11 07:29,cranes,7470.3,requires special handling crew,35872,machinery
+329,miami,florida,new york,new york,2025-09-07 07:29,2025-09-08 07:29,mining equipment,3135.16,requires unloading with crane,12242,steel
+330,dallas,texas,boston,massachusetts,2025-09-08 07:29,2025-09-10 07:29,robotics/automation units,5977.45,"fragile, shock protection required",22709,paper goods
+331,phoenix,arizona,dallas,texas,2025-09-11 07:29,2025-09-14 07:29,farm equipment,2593.03,requires unloading assistance,22544,beverages
+332,st. louis,missouri,minneapolis,minnesota,2025-09-07 07:29,2025-09-08 07:29,generators,2627.71,requires crane at delivery,46151,machinery
+333,dallas,texas,memphis,tennessee,2025-09-06 07:29,2025-09-10 07:29,construction machinery,3983.99,must deliver to construction site,37134,steel
+334,dallas,texas,new york,new york,2025-09-08 07:29,2025-09-12 07:29,hvac units,7636.86,do not stack units,13644,electronics
+335,dallas,texas,new york,new york,2025-09-08 07:29,2025-09-10 07:29,hvac units,1223.11,protect from rain,7535,paper goods
+336,denver,colorado,minneapolis,minnesota,2025-09-11 07:29,2025-09-13 07:29,generators,5036.71,requires crane at delivery,20543,electronics
+337,memphis,tennessee,denver,colorado,2025-09-07 07:29,2025-09-14 07:29,cranes,3303.29,"heavy load, confirm bridge clearance",17845,machinery
+338,phoenix,arizona,memphis,tennessee,2025-09-06 07:29,2025-09-13 07:29,transformers,4605.97,"high-value, insurance required",33762,machinery
+339,san francisco,california,cleveland,ohio,2025-09-12 07:29,2025-09-18 07:29,construction machinery,5849.19,requires flatbed with ramps,39840,steel
+340,st. louis,missouri,chicago,illinois,2025-09-08 07:29,2025-09-09 07:29,medical equipment,2976.44,temperature controlled environment required,44388,pharmaceuticals
+341,phoenix,arizona,chicago,illinois,2025-09-09 07:29,2025-09-11 07:29,robotics/automation units,7628.1,delivery to tech facility only,26496,electronics
+342,cleveland,ohio,san francisco,california,2025-09-06 07:29,2025-09-07 07:29,cranes,2116.76,requires special handling crew,35278,steel
+343,memphis,tennessee,denver,colorado,2025-09-08 07:29,2025-09-15 07:29,mining equipment,5949.96,requires unloading with crane,40856,steel
+344,chicago,illinois,las vegas,nevada,2025-09-11 07:29,2025-09-16 07:29,farm equipment,1928.67,delivery to rural farm,24373,produce
+345,portland,oregon,salt lake city,utah,2025-09-07 07:29,2025-09-13 07:29,hvac units,5794.59,protect from rain,40158,electronics
+346,phoenix,arizona,salt lake city,utah,2025-09-15 07:29,2025-09-17 07:29,generators,3925.01,"fragile, handle with care",30844,machinery
+347,memphis,tennessee,chicago,illinois,2025-09-09 07:29,2025-09-10 07:29,construction machinery,1981.28,"oversized load, permits needed",9960,steel
+348,houston,texas,san francisco,california,2025-09-13 07:29,2025-09-14 07:29,cranes,4881.76,requires special handling crew,40786,machinery
+349,detroit,michigan,memphis,tennessee,2025-09-06 07:29,2025-09-11 07:29,medical equipment,7577.62,"fragile, no stacking",27574,pharmaceuticals
+350,boston,massachusetts,dallas,texas,2025-09-06 07:29,2025-09-08 07:29,construction machinery,7099.49,requires flatbed with ramps,43288,steel
+351,boston,massachusetts,portland,oregon,2025-09-14 07:29,2025-09-15 07:29,cranes,5227.15,"heavy load, confirm bridge clearance",36587,machinery
+352,denver,colorado,detroit,michigan,2025-09-06 07:29,2025-09-13 07:29,transformers,6852.37,special permits required,11497,steel
+353,salt lake city,utah,denver,colorado,2025-09-14 07:29,2025-09-19 07:29,generators,3775.15,secure load with chains,41208,electronics
+354,san francisco,california,chicago,illinois,2025-09-08 07:29,2025-09-15 07:29,transformers,6992.22,"high-value, insurance required",18995,steel
+355,portland,oregon,las vegas,nevada,2025-09-15 07:29,2025-09-22 07:29,cranes,4337.0,requires special handling crew,35226,steel
+356,dallas,texas,salt lake city,utah,2025-09-15 07:29,2025-09-22 07:29,farm equipment,3995.82,"handle carefully, sensitive hydraulics",33758,produce
+357,st. louis,missouri,miami,florida,2025-09-09 07:29,2025-09-10 07:29,wind turbines,4977.24,handle with extreme care,29936,steel
+358,detroit,michigan,miami,florida,2025-09-11 07:29,2025-09-12 07:29,medical equipment,7689.2,delivery to hospital dock only,27169,pharmaceuticals
+359,st. louis,missouri,chicago,illinois,2025-09-13 07:29,2025-09-15 07:29,mining equipment,6776.22,"extra heavy, special trailer required",21517,steel
+360,salt lake city,utah,detroit,michigan,2025-09-09 07:29,2025-09-10 07:29,hvac units,3962.7,forklift required at delivery,42095,paper goods
+361,dallas,texas,denver,colorado,2025-09-10 07:29,2025-09-15 07:29,generators,1266.47,"fragile, handle with care",22488,machinery
+362,denver,colorado,st. louis,missouri,2025-09-08 07:29,2025-09-09 07:29,cranes,3817.74,requires special handling crew,5773,machinery
+363,detroit,michigan,boston,massachusetts,2025-09-10 07:29,2025-09-15 07:29,medical equipment,2562.36,temperature controlled environment required,15208,pharmaceuticals
+364,new york,new york,miami,florida,2025-09-14 07:29,2025-09-20 07:29,medical equipment,1515.77,temperature controlled environment required,40245,pharmaceuticals
+365,atlanta,georgia,las vegas,nevada,2025-09-13 07:29,2025-09-14 07:29,cranes,6748.09,requires special handling crew,38786,steel
+366,miami,florida,memphis,tennessee,2025-09-06 07:29,2025-09-10 07:29,hvac units,3022.85,do not stack units,25019,paper goods
+367,miami,florida,chicago,illinois,2025-09-15 07:29,2025-09-16 07:29,hvac units,7028.78,protect from rain,43904,electronics
+368,atlanta,georgia,san francisco,california,2025-09-15 07:29,2025-09-16 07:29,hvac units,1223.35,do not stack units,15312,electronics
+369,seattle,washington,los angeles,california,2025-09-12 07:29,2025-09-17 07:29,hvac units,1322.59,do not stack units,40299,electronics
+370,seattle,washington,atlanta,georgia,2025-09-13 07:29,2025-09-18 07:29,wind turbines,2402.46,"oversized load, route survey required",23654,steel
+371,portland,oregon,denver,colorado,2025-09-15 07:29,2025-09-21 07:29,mining equipment,6835.38,"extra heavy, special trailer required",13584,steel
+372,phoenix,arizona,las vegas,nevada,2025-09-11 07:29,2025-09-12 07:29,construction machinery,3827.95,"oversized load, permits needed",24711,steel
+373,san francisco,california,st. louis,missouri,2025-09-07 07:29,2025-09-10 07:29,farm equipment,4099.93,requires unloading assistance,35720,produce
+374,los angeles,california,seattle,washington,2025-09-13 07:29,2025-09-15 07:29,wind turbines,7286.06,handle with extreme care,36685,machinery
+375,detroit,michigan,new york,new york,2025-09-10 07:29,2025-09-16 07:29,robotics/automation units,7765.47,temperature-sensitive cargo,31124,electronics
+376,houston,texas,boston,massachusetts,2025-09-10 07:29,2025-09-15 07:29,robotics/automation units,7103.54,temperature-sensitive cargo,11567,electronics
+377,new york,new york,minneapolis,minnesota,2025-09-11 07:29,2025-09-18 07:29,hvac units,2168.29,forklift required at delivery,42209,electronics
+378,st. louis,missouri,cleveland,ohio,2025-09-09 07:29,2025-09-15 07:29,medical equipment,7142.44,temperature controlled environment required,18549,pharmaceuticals
+379,miami,florida,salt lake city,utah,2025-09-11 07:29,2025-09-18 07:29,transformers,2048.0,"high-value, insurance required",5635,machinery
+380,seattle,washington,st. louis,missouri,2025-09-09 07:29,2025-09-14 07:29,robotics/automation units,2937.16,delivery to tech facility only,43983,paper goods
+381,memphis,tennessee,denver,colorado,2025-09-11 07:29,2025-09-18 07:29,medical equipment,3298.45,delivery to hospital dock only,12757,electronics
+382,houston,texas,phoenix,arizona,2025-09-10 07:29,2025-09-15 07:29,transformers,4132.59,needs escort vehicle,31807,steel
+383,houston,texas,memphis,tennessee,2025-09-14 07:29,2025-09-20 07:29,robotics/automation units,3011.25,temperature-sensitive cargo,12713,electronics
+384,chicago,illinois,minneapolis,minnesota,2025-09-11 07:29,2025-09-14 07:29,construction machinery,6121.72,"oversized load, permits needed",39340,steel
+385,minneapolis,minnesota,chicago,illinois,2025-09-11 07:29,2025-09-15 07:29,construction machinery,5691.14,must deliver to construction site,21801,machinery
+386,denver,colorado,phoenix,arizona,2025-09-10 07:29,2025-09-13 07:29,robotics/automation units,4174.87,delivery to tech facility only,38557,electronics
+387,memphis,tennessee,portland,oregon,2025-09-08 07:29,2025-09-09 07:29,construction machinery,5850.36,must deliver to construction site,7009,steel
+388,miami,florida,seattle,washington,2025-09-09 07:29,2025-09-16 07:29,robotics/automation units,4660.53,"fragile, shock protection required",29522,electronics
+389,denver,colorado,chicago,illinois,2025-09-15 07:29,2025-09-20 07:29,construction machinery,2299.35,"oversized load, permits needed",36935,machinery
+390,seattle,washington,san francisco,california,2025-09-07 07:29,2025-09-08 07:29,wind turbines,4347.93,escort vehicles required,11435,machinery
+391,salt lake city,utah,houston,texas,2025-09-11 07:29,2025-09-16 07:29,farm equipment,3574.18,delivery to rural farm,5580,produce
+392,los angeles,california,memphis,tennessee,2025-09-12 07:29,2025-09-16 07:29,generators,1207.63,secure load with chains,41083,steel
+393,miami,florida,chicago,illinois,2025-09-07 07:29,2025-09-10 07:29,wind turbines,1961.22,"oversized load, route survey required",41306,steel
+394,miami,florida,new york,new york,2025-09-12 07:29,2025-09-14 07:29,transformers,7509.61,needs escort vehicle,29157,machinery
+395,portland,oregon,denver,colorado,2025-09-07 07:29,2025-09-11 07:29,robotics/automation units,1730.19,delivery to tech facility only,6442,paper goods
+396,dallas,texas,salt lake city,utah,2025-09-09 07:29,2025-09-16 07:29,hvac units,1893.15,protect from rain,16653,electronics
+397,denver,colorado,salt lake city,utah,2025-09-07 07:29,2025-09-11 07:29,farm equipment,6942.33,"handle carefully, sensitive hydraulics",29350,produce
+398,boston,massachusetts,minneapolis,minnesota,2025-09-15 07:29,2025-09-17 07:29,medical equipment,5461.02,temperature controlled environment required,28068,pharmaceuticals
+399,boston,massachusetts,portland,oregon,2025-09-15 07:29,2025-09-17 07:29,construction machinery,6464.34,requires flatbed with ramps,41744,machinery
+400,boston,massachusetts,st. louis,missouri,2025-09-09 07:29,2025-09-15 07:29,hvac units,7983.14,do not stack units,32156,electronics
+401,detroit,michigan,los angeles,california,2025-09-09 07:29,2025-09-10 07:29,generators,5510.75,"fragile, handle with care",7599,steel
+402,los angeles,california,miami,florida,2025-09-14 07:29,2025-09-16 07:29,hvac units,7425.32,do not stack units,24961,electronics
+403,san francisco,california,salt lake city,utah,2025-09-09 07:29,2025-09-11 07:29,generators,7579.2,"fragile, handle with care",7721,machinery
+404,boston,massachusetts,seattle,washington,2025-09-11 07:29,2025-09-12 07:29,medical equipment,6839.42,delivery to hospital dock only,45682,electronics
+405,chicago,illinois,houston,texas,2025-09-10 07:29,2025-09-16 07:29,medical equipment,7584.79,delivery to hospital dock only,35099,electronics
+406,los angeles,california,san francisco,california,2025-09-11 07:29,2025-09-18 07:29,construction machinery,5560.59,"oversized load, permits needed",8091,steel
+407,las vegas,nevada,denver,colorado,2025-09-11 07:29,2025-09-17 07:29,farm equipment,6497.18,requires unloading assistance,43259,beverages
+408,chicago,illinois,los angeles,california,2025-09-13 07:29,2025-09-15 07:29,cranes,4317.42,requires special handling crew,47344,machinery
+409,dallas,texas,cleveland,ohio,2025-09-09 07:29,2025-09-11 07:29,cranes,2544.54,escort vehicle mandatory,5133,machinery
+410,denver,colorado,memphis,tennessee,2025-09-13 07:29,2025-09-19 07:29,mining equipment,4248.4,requires unloading with crane,42205,machinery
+411,cleveland,ohio,salt lake city,utah,2025-09-08 07:29,2025-09-15 07:29,wind turbines,7180.92,"oversized load, route survey required",11598,steel
+412,boston,massachusetts,phoenix,arizona,2025-09-07 07:29,2025-09-08 07:29,mining equipment,5033.05,delivery to mining site,44159,steel
+413,dallas,texas,phoenix,arizona,2025-09-08 07:29,2025-09-14 07:29,farm equipment,4329.95,delivery to rural farm,15183,beverages
+414,boston,massachusetts,seattle,washington,2025-09-06 07:29,2025-09-08 07:29,farm equipment,7650.26,"handle carefully, sensitive hydraulics",41539,beverages
+415,las vegas,nevada,dallas,texas,2025-09-11 07:29,2025-09-12 07:29,mining equipment,6700.0,delivery to mining site,14718,steel
+416,minneapolis,minnesota,dallas,texas,2025-09-08 07:29,2025-09-09 07:29,farm equipment,7467.93,delivery to rural farm,35028,beverages
+417,atlanta,georgia,houston,texas,2025-09-07 07:29,2025-09-13 07:29,generators,6991.86,requires crane at delivery,25258,steel
+418,portland,oregon,detroit,michigan,2025-09-12 07:29,2025-09-15 07:29,robotics/automation units,7638.96,"fragile, shock protection required",24897,electronics
+419,houston,texas,minneapolis,minnesota,2025-09-12 07:29,2025-09-14 07:29,generators,7493.56,secure load with chains,47316,electronics
+420,salt lake city,utah,boston,massachusetts,2025-09-10 07:29,2025-09-17 07:29,cranes,2555.62,requires special handling crew,19999,machinery
+421,houston,texas,detroit,michigan,2025-09-12 07:29,2025-09-19 07:29,hvac units,6979.15,protect from rain,28550,paper goods
+422,los angeles,california,detroit,michigan,2025-09-12 07:29,2025-09-14 07:29,cranes,3135.77,requires special handling crew,35241,machinery
+423,detroit,michigan,chicago,illinois,2025-09-09 07:29,2025-09-10 07:29,cranes,7720.32,requires special handling crew,9531,steel
+424,st. louis,missouri,portland,oregon,2025-09-14 07:29,2025-09-16 07:29,robotics/automation units,4249.32,temperature-sensitive cargo,7960,electronics
+425,phoenix,arizona,las vegas,nevada,2025-09-06 07:29,2025-09-08 07:29,medical equipment,4417.55,temperature controlled environment required,10537,pharmaceuticals
+426,san francisco,california,st. louis,missouri,2025-09-07 07:29,2025-09-14 07:29,generators,5319.06,"fragile, handle with care",9922,electronics
+427,los angeles,california,chicago,illinois,2025-09-12 07:29,2025-09-13 07:29,construction machinery,1221.34,"oversized load, permits needed",16901,machinery
+428,miami,florida,dallas,texas,2025-09-12 07:29,2025-09-19 07:29,medical equipment,5803.17,temperature controlled environment required,5197,pharmaceuticals
+429,minneapolis,minnesota,portland,oregon,2025-09-08 07:29,2025-09-10 07:29,farm equipment,4508.6,requires unloading assistance,35838,beverages
+430,san francisco,california,denver,colorado,2025-09-15 07:29,2025-09-16 07:29,transformers,1869.54,"high-value, insurance required",20951,machinery
+431,los angeles,california,seattle,washington,2025-09-14 07:29,2025-09-15 07:29,construction machinery,3582.55,requires flatbed with ramps,35681,machinery
+432,miami,florida,los angeles,california,2025-09-15 07:29,2025-09-16 07:29,wind turbines,7397.88,"oversized load, route survey required",24192,machinery
+433,minneapolis,minnesota,chicago,illinois,2025-09-10 07:29,2025-09-16 07:29,robotics/automation units,4887.99,"fragile, shock protection required",39051,paper goods
+434,memphis,tennessee,detroit,michigan,2025-09-13 07:29,2025-09-20 07:29,construction machinery,3378.9,requires flatbed with ramps,30824,steel
+435,atlanta,georgia,st. louis,missouri,2025-09-10 07:29,2025-09-12 07:29,mining equipment,4202.8,"extra heavy, special trailer required",34564,steel
+436,houston,texas,miami,florida,2025-09-06 07:29,2025-09-07 07:29,generators,3859.9,requires crane at delivery,33944,steel
+437,las vegas,nevada,atlanta,georgia,2025-09-08 07:29,2025-09-10 07:29,wind turbines,1369.77,escort vehicles required,22208,machinery
+438,phoenix,arizona,miami,florida,2025-09-08 07:29,2025-09-11 07:29,medical equipment,7176.96,delivery to hospital dock only,41923,pharmaceuticals
+439,cleveland,ohio,phoenix,arizona,2025-09-08 07:29,2025-09-09 07:29,robotics/automation units,5404.3,delivery to tech facility only,29364,paper goods
+440,houston,texas,denver,colorado,2025-09-11 07:29,2025-09-18 07:29,wind turbines,4641.7,handle with extreme care,17223,machinery
+441,houston,texas,phoenix,arizona,2025-09-10 07:29,2025-09-14 07:29,construction machinery,7061.91,"oversized load, permits needed",46368,machinery
+442,miami,florida,seattle,washington,2025-09-14 07:29,2025-09-20 07:29,generators,7448.32,requires crane at delivery,26647,machinery
+443,portland,oregon,las vegas,nevada,2025-09-12 07:29,2025-09-14 07:29,robotics/automation units,5314.83,temperature-sensitive cargo,43245,electronics
+444,portland,oregon,minneapolis,minnesota,2025-09-15 07:29,2025-09-18 07:29,transformers,2795.19,special permits required,7988,machinery
+445,seattle,washington,houston,texas,2025-09-15 07:29,2025-09-22 07:29,mining equipment,4191.68,"extra heavy, special trailer required",39360,steel
+446,cleveland,ohio,st. louis,missouri,2025-09-07 07:29,2025-09-12 07:29,hvac units,2871.79,protect from rain,30437,electronics
+447,boston,massachusetts,minneapolis,minnesota,2025-09-14 07:29,2025-09-20 07:29,robotics/automation units,5398.7,temperature-sensitive cargo,39273,electronics
+448,minneapolis,minnesota,new york,new york,2025-09-13 07:29,2025-09-19 07:29,cranes,3039.68,escort vehicle mandatory,30293,steel
+449,salt lake city,utah,boston,massachusetts,2025-09-14 07:29,2025-09-19 07:29,farm equipment,3595.83,delivery to rural farm,31513,beverages
+450,phoenix,arizona,las vegas,nevada,2025-09-14 07:29,2025-09-21 07:29,farm equipment,7949.01,requires unloading assistance,19599,produce
+451,houston,texas,chicago,illinois,2025-09-13 07:29,2025-09-16 07:29,wind turbines,2640.9,"oversized load, route survey required",16814,machinery
+452,seattle,washington,houston,texas,2025-09-12 07:29,2025-09-18 07:29,medical equipment,3462.53,"fragile, no stacking",37573,pharmaceuticals
+453,phoenix,arizona,new york,new york,2025-09-07 07:29,2025-09-08 07:29,mining equipment,1692.37,"extra heavy, special trailer required",43557,machinery
+454,st. louis,missouri,atlanta,georgia,2025-09-08 07:29,2025-09-12 07:29,medical equipment,1550.17,"fragile, no stacking",34099,electronics
+455,new york,new york,seattle,washington,2025-09-13 07:29,2025-09-15 07:29,cranes,4973.31,escort vehicle mandatory,16602,steel
+456,denver,colorado,las vegas,nevada,2025-09-10 07:29,2025-09-17 07:29,farm equipment,6486.15,requires unloading assistance,30304,produce
+457,new york,new york,atlanta,georgia,2025-09-15 07:29,2025-09-22 07:29,medical equipment,4983.45,temperature controlled environment required,27194,pharmaceuticals
+458,los angeles,california,salt lake city,utah,2025-09-11 07:29,2025-09-16 07:29,construction machinery,4556.86,"oversized load, permits needed",15437,steel
+459,chicago,illinois,memphis,tennessee,2025-09-07 07:29,2025-09-12 07:29,mining equipment,4378.2,delivery to mining site,28142,machinery
+460,boston,massachusetts,cleveland,ohio,2025-09-12 07:29,2025-09-17 07:29,cranes,5646.98,escort vehicle mandatory,26854,steel
+461,cleveland,ohio,dallas,texas,2025-09-10 07:29,2025-09-13 07:29,mining equipment,6347.64,requires unloading with crane,20595,steel
+462,atlanta,georgia,cleveland,ohio,2025-09-08 07:29,2025-09-13 07:29,medical equipment,7865.57,"fragile, no stacking",33911,pharmaceuticals
+463,minneapolis,minnesota,memphis,tennessee,2025-09-08 07:29,2025-09-11 07:29,construction machinery,5797.41,requires flatbed with ramps,35326,steel
+464,chicago,illinois,boston,massachusetts,2025-09-06 07:29,2025-09-08 07:29,farm equipment,1322.27,requires unloading assistance,32663,produce
+465,chicago,illinois,los angeles,california,2025-09-13 07:29,2025-09-16 07:29,wind turbines,4354.34,"oversized load, route survey required",45712,machinery
+466,portland,oregon,atlanta,georgia,2025-09-09 07:29,2025-09-13 07:29,cranes,7523.33,requires special handling crew,36575,steel
+467,denver,colorado,houston,texas,2025-09-13 07:29,2025-09-18 07:29,mining equipment,4057.82,delivery to mining site,8629,machinery
+468,chicago,illinois,minneapolis,minnesota,2025-09-12 07:29,2025-09-19 07:29,wind turbines,6173.48,handle with extreme care,32454,machinery
+469,dallas,texas,san francisco,california,2025-09-13 07:29,2025-09-18 07:29,medical equipment,1364.83,delivery to hospital dock only,5978,pharmaceuticals
+470,los angeles,california,dallas,texas,2025-09-08 07:29,2025-09-10 07:29,farm equipment,3796.47,delivery to rural farm,20287,beverages
+471,st. louis,missouri,minneapolis,minnesota,2025-09-14 07:29,2025-09-18 07:29,medical equipment,6169.65,temperature controlled environment required,45810,pharmaceuticals
+472,st. louis,missouri,boston,massachusetts,2025-09-06 07:29,2025-09-09 07:29,farm equipment,2880.33,"handle carefully, sensitive hydraulics",6267,produce
+473,dallas,texas,detroit,michigan,2025-09-13 07:29,2025-09-17 07:29,farm equipment,4804.18,delivery to rural farm,47333,produce
+474,las vegas,nevada,detroit,michigan,2025-09-10 07:29,2025-09-17 07:29,construction machinery,4845.19,must deliver to construction site,6130,steel
+475,detroit,michigan,cleveland,ohio,2025-09-10 07:29,2025-09-17 07:29,construction machinery,5595.07,"oversized load, permits needed",45847,machinery
+476,san francisco,california,memphis,tennessee,2025-09-11 07:29,2025-09-18 07:29,generators,1499.23,secure load with chains,20577,electronics
+477,miami,florida,cleveland,ohio,2025-09-09 07:29,2025-09-13 07:29,medical equipment,6605.1,"fragile, no stacking",30960,electronics
+478,phoenix,arizona,portland,oregon,2025-09-12 07:29,2025-09-14 07:29,cranes,1232.85,"heavy load, confirm bridge clearance",46460,steel
+479,memphis,tennessee,boston,massachusetts,2025-09-10 07:29,2025-09-12 07:29,transformers,1483.82,"high-value, insurance required",9326,steel
+480,seattle,washington,new york,new york,2025-09-14 07:29,2025-09-16 07:29,farm equipment,5026.81,requires unloading assistance,23764,produce
+481,detroit,michigan,miami,florida,2025-09-11 07:29,2025-09-12 07:29,generators,1558.29,secure load with chains,28197,machinery
+482,las vegas,nevada,cleveland,ohio,2025-09-15 07:29,2025-09-22 07:29,generators,4706.38,"fragile, handle with care",41748,steel
+483,seattle,washington,atlanta,georgia,2025-09-11 07:29,2025-09-12 07:29,transformers,4366.16,needs escort vehicle,45614,machinery
+484,portland,oregon,phoenix,arizona,2025-09-07 07:29,2025-09-11 07:29,robotics/automation units,5473.34,delivery to tech facility only,38911,paper goods
+485,dallas,texas,atlanta,georgia,2025-09-15 07:29,2025-09-17 07:29,farm equipment,4341.8,requires unloading assistance,34218,produce
+486,dallas,texas,portland,oregon,2025-09-13 07:29,2025-09-16 07:29,medical equipment,7858.65,temperature controlled environment required,29518,electronics
+487,minneapolis,minnesota,san francisco,california,2025-09-06 07:29,2025-09-13 07:29,generators,1326.41,"fragile, handle with care",37107,electronics
+488,las vegas,nevada,cleveland,ohio,2025-09-08 07:29,2025-09-12 07:29,robotics/automation units,5840.97,"fragile, shock protection required",24862,paper goods
+489,phoenix,arizona,cleveland,ohio,2025-09-11 07:29,2025-09-17 07:29,hvac units,2341.22,forklift required at delivery,34372,paper goods
+490,seattle,washington,st. louis,missouri,2025-09-11 07:29,2025-09-18 07:29,farm equipment,3076.23,requires unloading assistance,27521,produce
+491,boston,massachusetts,miami,florida,2025-09-08 07:29,2025-09-11 07:29,cranes,6724.41,escort vehicle mandatory,9960,machinery
+492,detroit,michigan,atlanta,georgia,2025-09-15 07:29,2025-09-20 07:29,construction machinery,2064.97,must deliver to construction site,31397,steel
+493,portland,oregon,cleveland,ohio,2025-09-09 07:29,2025-09-12 07:29,farm equipment,7663.79,"handle carefully, sensitive hydraulics",8981,produce
+494,detroit,michigan,dallas,texas,2025-09-11 07:29,2025-09-18 07:29,transformers,5126.78,needs escort vehicle,45130,machinery
+495,minneapolis,minnesota,memphis,tennessee,2025-09-07 07:29,2025-09-14 07:29,robotics/automation units,1893.93,"fragile, shock protection required",20292,electronics
+496,atlanta,georgia,dallas,texas,2025-09-12 07:29,2025-09-17 07:29,wind turbines,4346.89,handle with extreme care,47315,machinery
+497,miami,florida,seattle,washington,2025-09-10 07:29,2025-09-17 07:29,hvac units,6658.9,protect from rain,15935,electronics
+498,phoenix,arizona,chicago,illinois,2025-09-08 07:29,2025-09-14 07:29,robotics/automation units,1409.63,delivery to tech facility only,38253,paper goods
+499,salt lake city,utah,denver,colorado,2025-09-08 07:29,2025-09-11 07:29,generators,4749.7,secure load with chains,22106,electronics
+500,chicago,illinois,miami,florida,2025-09-14 07:29,2025-09-18 07:29,medical equipment,5360.96,"fragile, no stacking",46428,electronics
+501,denver,colorado,denver,colorado,2025-09-08 07:29,2025-09-09 07:29,cranes,3817.74,requires special handling crew,5773,machinery
+502,denver,colorado,denver,colorado,2025-09-13 07:29,2025-09-14 07:29,mining equipment,5879.24,requires unloading with crane,9482,machinery
+503,detroit,michigan,detroit,michigan,2025-09-10 07:29,2025-09-16 07:29,robotics/automation units,7765.47,temperature-sensitive cargo,31124,electronics
+504,memphis,tennessee,memphis,tennessee,2025-09-15 07:29,2025-09-16 07:29,mining equipment,5952.89,"extra heavy, special trailer required",18900,machinery
+505,minneapolis,minnesota,minneapolis,minnesota,2025-09-08 07:29,2025-09-10 07:29,robotics/automation units,1384.51,"fragile, shock protection required",27291,electronics
+506,portland,oregon,portland,oregon,2025-09-07 07:29,2025-09-11 07:29,robotics/automation units,1730.19,delivery to tech facility only,6442,paper goods
+507,st. louis,missouri,st. louis,missouri,2025-09-09 07:29,2025-09-15 07:29,medical equipment,7142.44,temperature controlled environment required,18549,pharmaceuticals
+508,las vegas,nevada,las vegas,nevada,2025-09-09 07:29,2025-09-13 07:29,generators,5580.65,requires crane at delivery,26291,machinery
+509,st. louis,missouri,st. louis,missouri,2025-09-06 07:29,2025-09-11 07:29,transformers,1327.88,"high-value, insurance required",16507,machinery
+510,houston,texas,houston,texas,2025-09-13 07:29,2025-09-16 07:29,wind turbines,2640.9,"oversized load, route survey required",16814,machinery
+511,atlanta,georgia,atlanta,georgia,2025-09-13 07:29,2025-09-14 07:29,transformers,5918.63,special permits required,27649,steel
+512,chicago,illinois,chicago,illinois,2025-09-15 07:29,2025-09-21 07:29,transformers,7458.56,special permits required,46157,machinery
+513,las vegas,nevada,las vegas,nevada,2025-09-11 07:29,2025-09-17 07:29,farm equipment,6497.18,requires unloading assistance,43259,beverages
+514,boston,massachusetts,boston,massachusetts,2025-09-15 07:29,2025-09-18 07:29,cranes,3845.17,requires special handling crew,24449,steel
+515,phoenix,arizona,phoenix,arizona,2025-09-11 07:29,2025-09-12 07:29,construction machinery,3827.95,"oversized load, permits needed",24711,steel
+516,denver,colorado,denver,colorado,2025-09-15 07:29,2025-09-20 07:29,construction machinery,2299.35,"oversized load, permits needed",36935,machinery
+517,atlanta,georgia,atlanta,georgia,2025-09-12 07:29,2025-09-17 07:29,wind turbines,4346.89,handle with extreme care,47315,machinery
+518,dallas,texas,dallas,texas,2025-09-06 07:29,2025-09-09 07:29,hvac units,3754.2,do not stack units,20952,paper goods
+519,chicago,illinois,chicago,illinois,2025-09-12 07:29,2025-09-19 07:29,mining equipment,6885.58,requires unloading with crane,40329,machinery
+520,dallas,texas,dallas,texas,2025-09-09 07:29,2025-09-11 07:29,cranes,2544.54,escort vehicle mandatory,5133,machinery
