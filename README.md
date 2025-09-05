@@ -6,8 +6,6 @@ Simple FastAPI application to read and update carrier data from CSV file.
 
 - `GET /` - API information
 - `GET /carriers` - Get all carrier data
-- `GET /carriers/{load_id}` - Get specific carrier by ID
-- `PUT /carriers/{load_id}` - Update carrier data
 
 ## Local Development
 
