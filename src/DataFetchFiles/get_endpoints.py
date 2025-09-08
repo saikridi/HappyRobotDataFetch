@@ -4,17 +4,13 @@ import pandas as pd
 from .get_max_price_loads import get_optimal_loads, LoadSelectionResponse
 
 
-class LoadFilterValues(BaseModel):
+class LoadRequest(BaseModel):
     """Filter values for the loads"""
     origin_city: str
     destination_city: str
     origin_state: str
     destination_state: str
-    max_load_weight: int
-
-class LoadRequest(BaseModel):
-    """Request for the loads"""
-    filter_values: LoadFilterValues
+    max_load_weight: str
 
 class LoadDetails(BaseModel):
     """Response for the loads"""
@@ -83,13 +79,19 @@ GET Carrier Functions.
 """
 async def get_carrier(request: LoadRequest, df: pd.DataFrame):
     """Get the loads"""
-    filter_values = request.filter_values
+    filter_values = {
+                "origin_city": request.origin_city,
+                "destination_city": request.destination_city, 
+                "origin_state": request.origin_state,
+                "destination_state": request.destination_state,
+                "max_load_weight": int(request.max_load_weight)
+            }
     try:        
-        loads = df[(df["origin_city"].str.lower() == filter_values.origin_city.lower()) & 
-                    (df["destination_city"].str.lower() == filter_values.destination_city.lower()) & 
-                    (df["origin_state"].str.lower() == filter_values.origin_state.lower()) & 
-                    (df["destination_state"].str.lower() == filter_values.destination_state.lower()) &
-                    (df["weights"] < filter_values.max_load_weight)]
+        loads = df[(df["origin_city"].str.lower() == filter_values["origin_city"].lower()) & 
+                    (df["destination_city"].str.lower() == filter_values["destination_city"].lower()) & 
+                    (df["origin_state"].str.lower() == filter_values["origin_state"].lower()) & 
+                    (df["destination_state"].str.lower() == filter_values["destination_state"].lower()) &
+                    (df["weights"] < filter_values["max_load_weight"])]
 
         # Sorting the loads in a descending order by rate
         loads = loads.sort_values(by="loadboard_rate", ascending=False)
@@ -102,7 +104,7 @@ async def get_carrier(request: LoadRequest, df: pd.DataFrame):
         if len(loads) == 1:
             return return_single_load_response(request, loads)
         else:
-            optimal_load1= get_optimal_loads(filter_values.max_load_weight, loads)
+            optimal_load1= get_optimal_loads(filter_values["max_load_weight"], loads)
             optimal_load2= loads.head(1)
             return return_multiple_load_response(request, optimal_load1, optimal_load2)
         
