@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 import pandas as pd
 import uvicorn
-from DataFetchFiles.get_endpoints import LoadRequest, get_carrier
+from.DataFetchFiles import get_endpoints
 
 app = FastAPI(title="Carrier Data API")
 
@@ -13,10 +13,10 @@ async def root():
     return {"message": "Carrier Data API", "version": "1.0.0"}
 
 
-@app.get("/getLoads")
-async def get_carrier_endpoint(request: LoadRequest):
+@app.post("/getLoads")
+async def get_carrier_endpoint(request: get_endpoints.LoadRequest):
     """Get specific carrier by load_id from JSON request"""
-    return await get_carrier(request, df)
+    return await get_endpoints.get_carrier(request, df)
 
 
 if __name__ == "__main__":
