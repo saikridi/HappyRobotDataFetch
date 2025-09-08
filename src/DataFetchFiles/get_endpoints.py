@@ -11,6 +11,7 @@ class LoadRequest(BaseModel):
     origin_state: str
     destination_state: str
     max_load_weight: str
+    pickup_date: str = None  # Optional pickup date filter
 
 class LoadDetails(BaseModel):
     """Response for the loads"""
@@ -92,6 +93,12 @@ async def get_carrier(request: LoadRequest, df: pd.DataFrame):
                     (df["origin_state"].str.lower() == filter_values["origin_state"].lower()) & 
                     (df["destination_state"].str.lower() == filter_values["destination_state"].lower()) &
                     (df["weights"] < filter_values["max_load_weight"])]
+
+        # Filter loads by pickup date if specified
+        if hasattr(request, 'pickup_date') and request.pickup_date:
+            # Convert pickup_date to datetime for comparison
+            pickup_date = pd.to_datetime(request.pickup_date).date()
+            loads = loads[pd.to_datetime(loads['pickup_datetime']).dt.date == pickup_date]
 
         # Sorting the loads in a descending order by rate
         loads = loads.sort_values(by="loadboard_rate", ascending=False)
