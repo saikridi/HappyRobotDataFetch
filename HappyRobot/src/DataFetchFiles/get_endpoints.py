@@ -1,7 +1,13 @@
 from fastapi import HTTPException
 from pydantic import BaseModel
 import pandas as pd
-from .get_max_price_loads import get_optimal_loads, LoadSelectionResponse
+import sys
+import os
+
+# Add the DataFetchFiles directory to the Python path
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
+from get_max_price_loads import get_optimal_loads, LoadSelectionResponse
 
 
 class LoadFilterValues(BaseModel):
